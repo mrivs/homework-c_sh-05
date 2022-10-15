@@ -12,7 +12,7 @@ int[] array = CreateArray(N, min, max);
 
 Console.WriteLine(PrintArray(array)+" -> "+ SummNotEvenPos(array));
 
-int SummNotEvenPos(int[] array)
+int SummNotEvenPos(int[] array) // ищем сумму элементов, стоящих на нечётных позициях.
 {
     int summ = 0;
     for (int i = 1; i < array.Length; i = i + 2)
